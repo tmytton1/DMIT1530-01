@@ -1,0 +1,72 @@
+/*53b3ed blue
+dd6b20 red*
+68778d body-bg*/
+
+body {
+	font-size: 18px;
+	background-color: #edf2f7;
+	width: 960px;
+	margin: 0 auto;
+	line-height: 1.2;
+}
+
+.wrapper {
+	background-color: #edf2f7;
+	padding: 40px;
+}
+
+header,
+main,
+footer {
+	background-color: #ffffff;
+	margin: 40px;
+}
+
+header {
+	text-align: center;
+	font-family: arial;
+}
+
+header h1,
+header h2 span{
+	color: #63b3ed;
+}
+
+header h1 {
+	font-size: 125px; 
+}
+
+header h2 {
+	font-size: 32px;
+	line-height: 2;
+}
+
+header h2 a {
+	background-color: #dd6b20;
+	color: #ffffff;
+	padding: 16px;
+}
+
+a {
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	font-family: arial;
+	color: #68778d;
+
+}
+
+section {
+	background-color: #fff;
+	text-align: center;
+	width: 300px;
+}
+
+footer {
+	padding: 15px 31px;
+	font-family: arial;
+	font-style: italic;
+	color: #68778d;
+}
